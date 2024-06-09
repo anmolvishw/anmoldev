@@ -33,7 +33,7 @@ function headerShadow() {
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText",{
-  strings : ["Designer","Youtuber","Developer"],
+  strings : ["Developer","Graphic Designer","Digital Creator","Video Editor"],
   loop : true,
   typeSpeed : 100, 
   backSpeed : 80,

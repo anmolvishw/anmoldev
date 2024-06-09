@@ -48,7 +48,16 @@ html{
 }
 
 
+/* Extra  */
+.a-btn,.a-btn-nav{
+	text-decoration: none;
+	color: var(--text-color-second);
+}
+
 /* ---##-- REUSABLE CSS --##--- */
+
+
+
 
 /* ----- GLOBAL BUTTON DESIGN ----- */
 .btn{
@@ -398,6 +407,8 @@ h3{
     transition: .4s;
     z-index: 1;
 }
+
+
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after{
     bottom: 0;
@@ -409,7 +420,26 @@ h3{
     z-index: 2;
 }
 
+
+.contactMail{
+	text-decoration: none;
+	color: white;
+}
+
 /* ----- CONTACT BOX ----- */
+.Whatsapp{
+	padding: 0.8em;
+	border-radius: 1em;
+	margin-top: 20px;
+	background-color: transparent;
+	color: var(--color-white);
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+
+
+
 .contact-info{
     position: relative;
     display: flex;
@@ -428,7 +458,7 @@ h3{
     color: var(--color-white);
     margin-bottom: 20px;
 }
-.contact-info>p{
+.contact-info>p,.contactMail{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -443,9 +473,12 @@ h3{
 }
 .contact-info:hover.contact-info h2,
 .contact-info:hover.contact-info p,
-.contact-info:hover.contact-info i{
+.contact-info:hover.contact-info i,
+.contact-info:hover.contact-info button,
+.contact-info:hover.contact-info a{
     color: #777;
     z-index: 2;
+	border-color: #777;
 }
 
 /* ----- CONTACT FORM ----- */
@@ -635,4 +668,12 @@ footer{
     .input-field{
         width: 100%;
     }
+}
+
+
+/* --------------- */
+
+.aofa{
+	text-decoration: none;
+	color: black;
 }
